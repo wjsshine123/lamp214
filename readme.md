@@ -6,4 +6,9 @@
 	git init    git 初始化
 		master
 
-	2) git add .
+	2) 把工作区里面的文件 存放到暂存区 
+		git add .
+			. 代表 修改的文件和新创建的文件
+
+	3)把暂存区里面的文件 提交到本地git仓库中
+	git commit -m '注释的信息'
